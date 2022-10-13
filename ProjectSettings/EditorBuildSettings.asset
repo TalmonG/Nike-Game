@@ -4,7 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Old Game/Scenes/Gameplay.unity
+    guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Old Game/Scenes/GameOver.unity
+    guid: 8eae1bc381db71d489c5ce6bb33fb370
+  - enabled: 1
+    path: Assets/Old Game/Scenes/Cutscene.unity
+    guid: d404b02b19893124188ca18cc7816a73
+  - enabled: 1
+    path: Assets/Old Game/Scenes/MainMenu.unity
+    guid: 157222c8f6749234ca5078c3e0202efd
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
