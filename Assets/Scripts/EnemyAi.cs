@@ -5,8 +5,8 @@ using UnityEngine.AI;
 
 public class EnemyAi : MonoBehaviour
 {
-	
-	
+
+    public GameObject[] respawns;
 
     public NavMeshAgent agent;
 
@@ -116,4 +116,17 @@ public class EnemyAi : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, sightRange);
     }
+
+    void OnCollisionEnter (Collision col)
+    {
+        if (col.gameObject.tag.Equals ("Bullet"))
+        {
+            Destroy(col.gameObject);
+            Destroy(gameObject);
+        }
+    }
+
+
+
+
 }
