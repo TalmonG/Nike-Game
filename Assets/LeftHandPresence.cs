@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 
-public class RightHandPresence : MonoBehaviour
+public class LeftHandPresence : MonoBehaviour
 {
-    public InputDeviceCharacteristics controllerCharacteristics;
+    /*public InputDeviceCharacteristics controllerCharacteristics;
     public InputDevice targetDevice;
 
     public float damage = 10f;
@@ -60,5 +60,5 @@ public class RightHandPresence : MonoBehaviour
     void Shoot()
     {
         Instantiate(bulletPrefab, barrelLocation.position, barrelLocation.rotation).GetComponent<Rigidbody>().AddForce(barrelLocation.forward * shotPower);
-    }
+    }*/
 }
