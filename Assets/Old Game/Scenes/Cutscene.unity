@@ -611,7 +611,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1475392518}
   m_Enabled: 1
+<<<<<<< HEAD
   m_VideoClip: {fileID: 32900000, guid: 510a2ad1a19124f4c87950516cda260c, type: 3}
+=======
+  m_VideoClip: {fileID: 32900000, guid: c1b9fc75bceef754d96a9df5a7553f99, type: 3}
+>>>>>>> main
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -836,7 +840,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
+<<<<<<< HEAD
   m_Text: Skip Cutscene
+=======
+  m_Text: To the game
+>>>>>>> main
 --- !u!222 &1731439766
 CanvasRenderer:
   m_ObjectHideFlags: 0
