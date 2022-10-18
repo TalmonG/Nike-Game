@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 
-public class RightHandPresence : MonoBehaviour
+public class RHandPresence : MonoBehaviour
 {
     public InputDeviceCharacteristics controllerCharacteristics;
     public InputDevice targetDevice;

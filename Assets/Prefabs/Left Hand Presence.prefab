@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5044849120195902218}
-  - component: {fileID: 5044849120195902219}
+  - component: {fileID: 8802052663365046671}
   m_Layer: 0
   m_Name: Left Hand Presence
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5044849120195902219
+--- !u!114 &8802052663365046671
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43,4 +43,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5b8b69a9a23a7b4f80fba0f259d703d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllerCharacteristics: 256
+  controllerCharacteristics: 512
+  damage: 10
+  range: 100
+  shotPower: 100
+  gun: {fileID: 0}
+  bulletPrefab: {fileID: 1027714323275627276, guid: 2215b254ecdc98949bb1413443eaa200,
+    type: 3}
+  barrelLocation: {fileID: 0}
