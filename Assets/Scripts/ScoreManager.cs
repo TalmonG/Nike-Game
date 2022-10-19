@@ -17,9 +17,9 @@ public class ScoreManager : MonoBehaviour
 		}
     }
 
-	public void ChangeScore(int PhotoValue)
+	public void ChangeScore(int PickupValue)
 	{
-		score += PhotoValue;
+		score += PickupValue;
 		text.text = "X" + score.ToString();
 	}
 
